@@ -9,7 +9,7 @@ This repository contains the source code for a responsive Next.js-based website.
 
 
 ```markdown
-![Screenshot 1](1.png)
+[![Screenshot 1](1.png)]
 ![Screenshot 2](2.png)
 ![Screenshot 3](3.png)
 ![Screenshot 4](4.png)
@@ -17,7 +17,7 @@ This repository contains the source code for a responsive Next.js-based website.
 ```         
 
 
-## Videos
+## Video
 
 
 [![Watch the video](1.png)](video.mp4)
