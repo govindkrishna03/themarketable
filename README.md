@@ -9,17 +9,17 @@ This repository contains the source code for a responsive Next.js-based website.
 
 
 ```markdown
-![Screenshot 1](./Screenshot 2024-12-13 224957.png)
-![Screenshot 2](./Screenshot 2024-12-13 225006.png)
-![Screenshot 3](./Screenshot 2024-12-13 225014.png)
-![Screenshot 4](./Screenshot 2024-12-13 225021.png)
-![Screenshot 5](./Screenshot 2024-12-13 225034.png)
+![Screenshot 1](1.png)
+![Screenshot 2](2.png)
+![Screenshot 3](3.png)
+![Screenshot 4](4.png)
+![Screenshot 5](5.png)
 ```         
 
 
 ## Videos
 
 
-[![Watch the video](Screenshot 2024-12-13 224957.png)](Screen Recording 2024-12-13 225211.mp4)
+[![Watch the video](1.png)](video.mp4)
 ```
 
