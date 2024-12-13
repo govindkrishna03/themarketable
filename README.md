@@ -20,5 +20,4 @@ This repository contains the source code for a responsive Next.js-based website.
 
 
 [![Watch the video](1.png)](video.mp4)
-```
 
