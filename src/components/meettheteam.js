@@ -14,7 +14,7 @@ const MeetTheTeam = () => {
         }
       },
       {
-        threshold: 0.2, // Trigger when 20% of the section is visible
+        threshold: 0.2,
       }
     );
 
@@ -35,7 +35,7 @@ const MeetTheTeam = () => {
       ref={sectionRef}
     >
       <div className="text-left">
-        <h2 className="text-[10em] font-semibold mb-6 leading-none">
+        <h2 className="text-[10em] font-semibold mt-[100px] leading-none">
           MEET <br />THE <br />TEAM
         </h2>
       </div>

@@ -22,20 +22,23 @@ export default function Home() {
     };
   }, []);
 
-  // Split the heading text
+
   const headingText = "OWN YOUR TOMORROW.";
   const [firstLine, secondLine] = headingText.split("TOMORROW.");
 
-  // Join the text with the newline for splitCharacters
+
   const splitCharacters = [...firstLine, "TOMORROW.", ...secondLine].map((char) => char);
 
   return (
     <div data-scroll-container>
       <Navbar />
 
-      <div className="container mx-auto flex justify-between h-auto items-center">
+      <div className="container mx-auto flex flex-col items-center md:flex-row md:justify-between h-auto">
         {/* Animated Text */}
-        <h1 className="font-bold  text-[10rem] mt-[100px] py-[100px] leading-none flex flex-wrap" style={{ fontFamily: '"Helvetica Neue", Arial, Helvetica, sans-serif' }}>
+        <h1
+          className="font-bold text-4xl sm:text-6xl md:text-8xl lg:text-[10rem] mt-8 sm:mt-12 md:mt-16 py-8 md:py-12 lg:py-[100px] leading-tight text-center md:text-left flex flex-wrap"
+          style={{ fontFamily: '"Helvetica Neue", Arial, Helvetica, sans-serif' }}
+        >
           {splitCharacters.map((char, index) => (
             <span
               key={index}
@@ -49,10 +52,8 @@ export default function Home() {
             </span>
           ))}
         </h1>
-
-        {/* Uncomment if Logo is needed */}
-        {/* <Image src={Logo} alt="Logo" className="h-auto w-auto" /> */}
       </div>
+
 
       {/* Other sections */}
       <div className="container mx-auto mt-[250px]">
@@ -165,7 +166,7 @@ export default function Home() {
             <div className="text-center mb-8">
               <h2 className="text-3xl font-semibold mb-4">WHO IS THIS COURSE FOR?</h2>
               <p className="text-2xl text-gray-600 mb-4 font-extrabold mx-auto">
-                Our courses are great for everyone, whether you're just starting out in trading or already have some experience. Join us to learn and enhance your trading abilities across different subjects in a way that's easy to understand and follow.
+                Our courses are great for everyone, whether you are just starting out in trading or already have some experience. Join us to learn and enhance your trading abilities across different subjects in a way that is easy to understand and follow.
               </p>
               <button className="bg-blue-600 text-white px-8 py-4 rounded-lg font-medium hover:bg-blue-700 transition duration-300">
                 Join Now
@@ -177,28 +178,29 @@ export default function Home() {
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
 
             <div class="flex flex-col">
-              <h1 class="font-bold text-2xl">Should I Choose a Course if I'm New to Trading?</h1>
+              <h1 class="font-bold text-2xl">Should I Choose a Course if I am New to Trading?</h1>
               <p>
-                Absolutely! If you're looking to grasp the fundamentals of trading and start your trading journey while learning how to analyze your trades, our foundational course is an ideal starting point. Both courses are designed specifically for beginners, ensuring a smooth and comprehensive learning experience without the need for any prior knowledge of trading.
+                Absolutely! If you are looking to grasp the fundamentals of trading and start your trading journey while learning how to analyze your trades, our foundational course is an ideal starting point. Both courses are designed specifically for beginners, ensuring a smooth and comprehensive learning experience without the need for any prior knowledge of trading.
               </p>
             </div>
 
             <div class="flex flex-col">
               <h1 class="font-bold text-2xl">Are the courses available in English?</h1>
               <p>
-                English Trading Batch Starting from January Third Week 2024! Stay tuned for further updates and important information. For more frequent updates, be sure to join our Discord groups. Don't miss out on this exciting opportunity to delve into the world of trading with us!
+                English Trading Batch Starting from January Third Week 2024! Stay tuned for further updates and important information. For more frequent updates, be sure to join our Discord groups. Dont miss out on this exciting opportunity to delve into the world of trading with us!
               </p>
             </div>
 
             <div class="flex flex-col">
               <h1 class="font-bold text-2xl">I want to learn from basics to advanced concepts about trading. Which course should I choose?</h1>
               <p>
-                Our upcoming trading course led by Sreekanth covers a comprehensive spectrum of topics, starting from the fundamentals and progressing to advanced concepts. Stay tuned for this course if you're eager to delve into trading strategies and gain insights from the basics to the more intricate aspects.
+                Our upcoming trading course led by Sreekanth covers a comprehensive spectrum of topics, starting from the fundamentals and progressing to advanced concepts. Stay tuned for this course if you are eager to delve into trading strategies and gain insights from the basics to the more intricate aspects.
               </p>
             </div>
           </div>
         </div>
       </div>
+      
     </div>
 
   );
